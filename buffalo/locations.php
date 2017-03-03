@@ -5,7 +5,7 @@
 
 
 <div class="row">
-  <form class="store-locator-form" action="" method="post" id="storeLocatorSearch" data-ga='{&quot;category&quot;:&quot;/en/locations/&quot;,&quot;action&quot;:&quot;Map_Locator&quot;,&quot;opt_label&quot;:&quot;$(#storeLocatorZip)_Address_Search&quot;}' data-ga-noclick="">
+  <form class="store-locator-form use-location-active" action="" method="post" id="storeLocatorSearch" data-ga='{&quot;category&quot;:&quot;/en/locations/&quot;,&quot;action&quot;:&quot;Map_Locator&quot;,&quot;opt_label&quot;:&quot;$(#storeLocatorZip)_Address_Search&quot;}' data-ga-noclick="">
     <div class="form-input">
       <div id="storeLocatorFields" class="search-fields">
 

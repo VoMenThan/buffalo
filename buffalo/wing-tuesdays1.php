@@ -6,10 +6,10 @@
   <section class="row promo-details allow-overflow">
 
     <div class="inner-hero">
-      <div class="hero-bg mobile-img" data-desktop-img="/Global/bww-bone-in-wings.jpg" data-mobile-img="/Global/bww-bone-in-wings-mobile.jpg">
+      <div class="hero-bg mobile-img" data-desktop-img="./images/bww-bone-in-wings.jpg" data-mobile-img="./images/bww-bone-in-wings-mobile.jpg">
         
 
-     <img src="/public/images/responsive-shim.png?width=1&amp;height=1" class="mobile-img" alt="" />
+     <img src="./images/responsive-shim.png?width=1&amp;height=1" class="mobile-img" alt="" />
      
       </div>
 

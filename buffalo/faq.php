@@ -441,5 +441,19 @@
 
   <div class="hr black"></div>
 
+<script src="./js/faq.js" type="text/javascript"></script>
 
+
+  <script>
+
+    /////////////////////////////////
+    // FAQ Template Modules
+    /////////////////////////////////
+    !function( $, app ) {
+
+      app.Faq = new app._Modules.Faq() 
+
+    }( jQuery, BuffaloWildWings )
+
+  </script>
   <?php include("footer.php");?>

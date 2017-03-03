@@ -1,0 +1,672 @@
+﻿/* 
+***********************************
+Page: NDQ Styles
+Category: N/A
+Search: 0
+Track: 0
+Version: 9.8.0 
+Author: Jonathan Hagan
+Date: 27 Jun 2014
+***********************************
+*/
+@charset "utf-8";
+
+/* Key Ratio iFrame uses #wrapper */
+#wrapper, #wrapper .dataTable th, #wrapper .dataTable td, #tableWrapper td, #ndq-content textarea, #ndq-content { font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:12px;
+	font-size:0.75rem;
+	line-height:1.5em;
+	color:#000; }
+.row.black #ndq-content {color:#fff;}
+#wsh_flashchart, #ndq-content.ndq-stocklookup img, #ndq-content.ndq-calculator img, #ndq-content.ndq-estimates img  {border:1px solid #000;}	
+#ndq-content a { cursor:pointer; font-weight:bold; text-decoration:underline; /* color:blue;  text-decoration:underline;*/ }
+#wrapper { background-color: none; }
+#ndq-content { width:auto; }
+
+/* Resets for list items */
+ul.ndq-ir-nav, .ndq-ir-nav li, ol#ndq-content, ul#ndq-content, #ndq-content li { list-style:none; margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+#ndq-content ul li { list-style-type:disc; margin:.4em 0 .4em 2em; }
+#ndq-content ol li { list-style-type:decimal; margin:.4em 0 .4em 2em; }
+
+#ndq-content ol,#ndq-content ul { margin:1em 0; }
+#ndq-content ol[type="A"] li { list-style-type:upper-alpha; }
+#ndq-content ol[type="a"] li { list-style-type:lower-alpha; }
+#ndq-content ol[type="I"] li { list-style-type:upper-roman; }
+#ndq-content ol[type="i"] li { list-style-type:lower-roman; }
+
+#ndq-content ol[type="A"] li ul li { list-style-type: disc; }
+#ndq-content ol[type="a"] li ul li { list-style-type: disc; }
+#ndq-content ol[type="I"] li ul li { list-style-type: disc; }
+#ndq-content ol[type="i"] li ul li { list-style-type: disc; }
+
+/* Headers */
+h1, h2, h3, h5, h6, #ndq-content caption, .ndq-inc-stock-quote-title {
+	font-family:"TradeGothicW01-BoldCn20 675334", "Trebuchet MS", Arial, sans-serif;
+	font-weight:normal;
+	text-rendering:optimizelegibility;
+}
+#ndq-content h1 { margin-bottom:0.1875em;
+	font-size:35px;
+	font-size:2.1875rem;
+	letter-spacing:.08em;
+	line-height:1.2;
+	text-transform:uppercase; margin-bottom:10px; }
+#ndq-content h2, #ndq-content caption, .ndq-inc-stock-quote-title { margin-bottom:0.75em;
+	font-family:"TradeGothicW01-BoldCn20 675334","Trebuchet MS",Arial,sans-serif;
+	font-size:22px;
+	font-size:1.375rem;
+	letter-spacing:.06em;
+	line-height:1.2;
+	text-transform:uppercase; margin:5px 0; padding:5px 0; }
+#ndq-content.ndq-alerts h3, #ndq-content h3 {
+	font-family:"TradeGothicW01-BoldCn20 675334","Trebuchet MS",Arial,sans-serif;
+	font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0.06em;
+    line-height: 1.3;
+    text-transform: uppercase; margin:10px 0 5px 0; }
+
+/* Left hand navigation (nav-ir.cfm) */
+ul.ndq-ir-nav li { line-height:1.7em; list-style-type:none; margin:0;}
+ul.ndq-ir-nav li a {font-weight: bold; text-decoration:underline; font-size: 0.8125rem;}
+ul.ndq-ir-nav li ul { margin-top:10px; margin-bottom:10px; padding-left:0; }
+ul.ndq-ir-nav li ul li { margin-left:15px; font-size:.8em; }
+ul.ndq-ir-nav li ul li a {font-weight: bold; text-decoration:none; font-size: 0.7125rem;}
+
+/* Expand/Collapse */
+#ndq-content .ndq-expand-link { cursor:pointer; line-height: 1.5em; padding:10px 0 !important;}
+#ndq-content .ndq-expand-link span.ndq-expand-arrow {float:left; display:block; margin-right:10px; }
+#ndq-content.ndq-index .ndq-expand-link, #ndq-content.ndq-financials .ndq-expand-link { /* background:#fff; color:#fff; */ border: 1px solid #dadada; }
+#ndq-content .ndq-expand-link, #ndq-content .ndq-expand-content, #ndq-content .ndq-expand-link-no, #ndq-content .ndq-expand-link-nobio { padding:10px; clear:both; }
+#ndq-content .ndq-expand-content {margin-bottom:20px; background:#fff;border: 1px solid #000;}
+#ndq-content.ndq-financials .ndq-expand-content {background:none;}
+#ndq-content .ndq-expand-link { /* background:#666; color:#fff; */  margin-bottom:10px; text-decoration:underline; ont-size: 0.875rem; font-weight:bold; } 
+#ndq-content .ndq-expand-link span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e04d"; color:#000;} 
+#ndq-content .ndq-expand-link-no { cursor: default; padding:10px 0; clear:both; }
+#ndq-content .ndq-expand-content-no { cursor: default; padding:10px; clear:both; }
+#ndq-content .ndq-expand-content h4 { margin: 0 0 5px 0 }
+#ndq-content .ndq-on { /* background-color:#23712D; */ color:#000;}
+#ndq-content .ndq-expand-link:hover span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e04e"; color:#000;}
+#ndq-content .ndq-on span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e050"; color:#000; }  
+#ndq-content .ndq-on:hover span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e04f";} 
+#ndq-content .ndq-over { color:#444; }
+#ndq-content #ndq-exp-col { float:right; margin-bottom:20px; }
+#ndq-content #ndq-exp-col a { text-decoration:none;}
+#ndq-content #ndq-exp-col span.ndq-show-all:before { font-family: "ndqfonticons"; content: "\e012"; color:#000; vertical-align:text-bottom;}
+#ndq-content #ndq-exp-col span.ndq-hide-all:before { font-family: "ndqfonticons"; content: "\e011"; color:#000; vertical-align:text-bottom;}
+#ndq-content .ndq-expand-content table {border:0 !important}
+/* Expand/Collapse Inner / exm:Transactions */
+#ndq-content .ndq-expand-content .ndq-expand-link {background:none; /* border-bottom:1px solid #666; color:#0000FF; */} 
+#ndq-content.ndq-management .ndq-expand-link {padding:10px 0;}
+#ndq-content.ndq-management .ndq-expand-link .ndq-pr25 {padding-right:0 !important}
+
+/* Forms */
+#ndq-content form { margin-bottom:10px; }
+#ndq-form { }
+#ndq-form fieldset { width:450px; background-color: none; border:none; padding:0px; }
+/* #ndq-content select { width:auto; } */
+#ndq-form input, #ndq-form textarea, #ndq-form select {/*  float:right; width:300px; */ margin-top:5px; -ms-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-sizing:border-box; }
+#ndq-form textarea { resize: none; }
+input[type="checkbox"],input[type="radio"] { vertical-align:text-bottom; border:0; }
+#ndq-form input[type $='checkbox'] { width:auto; float:left; margin-right:10px; }
+#ndq-form label { float:left; padding-top:5px; }
+#ndq-form label.ndq-nofloat { float:none; padding:0; }
+#ndq-form .ndq-optional { display:inline; float:right; margin:0 0 5px 10px; padding-top:10px; }
+#ndq-form .ndq-required { display:inline; margin:0 0 0 5px; }
+#ndq-form img { float:right; }
+#ndq-form div { clear:both; padding-top:5px; display:block;}
+#ndq-form #captcha { float:right; font-size:.85em; float:right; }
+#ndq-form .ndq-captcha-audio { padding:0; }
+#ndq-form .ndq-form-note { float:right; font-size:.85em; }
+#ndq-content button, #ndq-content input[type="submit"]  { 
+	display:inline-block;
+	padding:11px 35px 11px 15px;
+	margin-bottom:0;
+	font-weight:bold;
+	font-family:"TradeGothicW01-BoldCn20 675334","Trebuchet MS",Arial,sans-serif;
+	text-transform:uppercase;
+	font-size: 1.275rem;
+    font-weight: 100;
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+	color:#fff;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#000;
+	border:0;
+	cursor:pointer;
+	*margin-left:.3em;
+	*display:inline;
+	*zoom:1;
+	
+	background-image: url("../images/icon-chevron-right-white.svg");
+    background-position: 90% 15px;
+    background-repeat: no-repeat;
+    background-size: 12px auto;
+}
+.ndq-errors, .ndq-errors div { color:red; }
+.ndq-faq .ndq-confirmation-text, .ndq-contactboard .ndq-confirmation-text { color:green; }
+#ndq-form .ndq-submit { float:right; margin-top:20px; }
+.ndq-submit { padding-top:15px; }
+.ndq-confirmation-textation-text { color:#F60; }
+.ndq-button {}
+noscript button.ndq-button {margin: 10px 10px 0 10px;} 
+#ndq-form .ndq_captcha, #ndq-form .ndq_captchaImg {width:49.5%; display:inline-block !important; clear:none !important;}
+#ndq-form .ndq_captchaImg {text-align:right;}
+#ndq-form .ndq_captchaImg img {float:none;}
+
+/* Text Areas */
+#ndq_comments { min-height:150px }
+#ndq_email_message { min-height:60px; }
+.ndq-form-spacer { height: 10px; }
+#ndq-content form .formSpacer {width:10px; height:10px; display:none; }
+
+/* Global */
+.ndq-leftcol { width:45%; float:left; }
+.ndq-rightcol { width:45%; float:right; }
+.ndq-small-screen { display:none; }
+.ndq-colwrap { overflow:hidden; }
+.ndq-unsupported { border:1px solid yellow; background-color:#FFFFB7; padding:1px 10px; }
+#ndq-content .ndq-disclaimer { clear:both; font-size:.8em; line-height:1.5em;  margin-top:20px !important;}
+#ndq-content.ndq-eventdetail .ndq-disclaimer { clear:none; margin-top:15px; }
+.ndq-borderLRT {border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;}
+
+/* Overlay */
+#ndq-content div.ndq-dialog-overlay, #ndq-tools div.ndq-dialog-overlay { position: fixed; top:0; right:0; bottom:0; left:0; height:100%; width:100%; margin:0; padding:0; background:#000000; opacity:.15; filter:alpha(opacity=15); -moz-opacity:.15; z-index:1; display:none; }
+#ndq-content div.ndq-dialog, #ndq-tools div.ndq-dialog { display:none; position:absolute; width:auto; margin-left:0; background-color:#ffffff; padding:10px; z-index:2; }
+#ndq-tools div.ndq-dialog {width:280px; left:45%}
+#ndq-content a.ndq-close-dialog:before, #ndq-tools a.ndq-close-dialog:before {font-size:1.1em;}
+#ndq-content a.ndq-close-dialog, #ndq-tools a.ndq-close-dialog {color:#666; float:right; margin:-10px -8px 0 0; font-weight:bold; text-decoration:none; cursor:pointer; }
+#ndq-tools a.ndq-close-dialog {margin:-10px -10px 0 0;}
+#ndq-content.ndq-committees div.ndq-dialog, #ndq-content.ndq-eventdetail div.ndq-dialog { margin-left:0;}
+#ndq-content.ndq-committees div.ndq-dialog { width:65%; margin-top:-13%; }
+#ndq-content.ndq-committees div.ndq-dialog div { width:98%;}
+#ndq-content div.ndq-dialog h1 {margin-top:0;}
+
+/* Pagination */
+#ndq-pagination #ndq-page {
+	display:inline-block;
+	padding:0;
+	line-height:1.42857143;
+	text-decoration:none;
+	color:#000;
+	width:30px; height:30px;
+	line-height: 30px;
+	text-align:center;
+}
+#ndq-content #ndq-pagination { float:left; width:60%;  margin-top:20px;}
+#ndq-pagination .ndq-first {
+	margin-left:0;
+}
+#ndq-pagination .ndq-last {
+}
+#ndq-pagination #ndq-page:hover, #ndq-pagination .ndq-page-current {
+	color:#fff !important;
+	background-color:#000 !important;
+	border-color:#ddd;
+}
+#ndq-pagination #ndq-page:hover a, #ndq-pagination .ndq-page-current {color:#fff;}
+#ndq-content #ndq-pagination form { margin-top:15px; }
+.ndqicon-arw-l, .ndqicon-arw-r, .ndqicon-arw-arw-l, .ndqicon-arw-arw-r { height:24px; width:24px; line-height:22px; text-align:center;}
+.ndqicon-arw-l:hover, .ndqicon-arw-r:hover, .ndqicon-arw-arw-l:hover, .ndqicon-arw-arw-r:hover {color:#333; }
+
+/* Table */
+#ndq-content table, .dataTable, .wsh-dataTable { width:100%; border-collapse:collapse; margin-bottom:15px; background:#fff; border: 1px solid #000;}
+#ndq-content caption { text-indent:0; text-align:left; /* see h2 tags for sizing and margin/padding */}
+#ndq-content.ndq-releases caption, #ndq-content.ndq-analysts caption, #ndq-content.ndq-sec caption, #ndq-content.ndq-downloads caption, #ndq-content.ndq-briefcase caption, 
+#ndq-content.ndq-insider-transactions caption, #ndq-content.ndq-insider-ownership caption { text-indent:-9999px; margin:0; padding:0; border:none; display:none; }
+#ndq-content th, .dataTable th { color:#000; text-align:left; font-family:"TradeGothicW01-BoldCn20 675334", "Trebuchet MS", Arial, sans-serif;
+	font-weight:normal; font-size:18px;
+	font-size: 0.9375rem;
+	text-transform:uppercase; border-bottom:2px solid #333; }
+#ndq-content th, .dataTable th, #ndq-content td, .dataTable td { padding:5px; }
+#ndq-content caption { } /*defined above with h2*/
+#ndq-content td, .dataTable td { border-bottom: 1px solid #454545; vertical-align:top; }
+#ndq-content td.alt { background-color: #F5FAFA; color: #B4AA9D; }
+#ndq-content table summary { display:block; }
+#ndq-content th a:link {color:#000; text-decoration:none; font-weight:normal; }
+#ndq-content th a:visited { color:#000; text-decoration:none; }
+#ndq-content th a:hover {color:#000; text-decoration:none; }
+#ndq-content th a:active { color:#000; text-decoration:none; }
+#ndq-content .primarybold { font-weight:bold; }
+.ndqicon-sort-up:before {content:'\e052'; font-size:16px;}
+.ndqicon-sort-down:before {content:'\e050'; font-size:16px;}
+.ndqicon-sort-up, .ndqicon-sort-down {color:#000; padding-right:10px; } 
+
+/* Tabs */
+#ndq-tabs { width:45%; float:left; }
+#ndq-tabs ul { float:left; width:100%; margin:0 0 5px 0 !important; padding:0; }
+#ndq-tabs li { list-style:none !important;  width:21%; margin:0 2% 0px 0 !important; float:left; 
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-khtml-border-radius:3px;
+	border-radius:3px;
+	padding:0 !important;
+	
+	background-color: #444 !important;
+    background-image: -webkit-linear-gradient(#444, #000);
+    background-image: -moz-linear-gradient(#444, #000);
+    background-image: linear-gradient(#444, #000);
+    border: 0;
+    color: #fff !important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    display: inline-block;
+}
+#ndq-tabs li.lastTab {margin:0 !important;}
+* html #ndq-tabs li { display:inline; }
+#ndq-tabs li a { float:left; padding-left:2px; margin:0; width:100%; text-align:center; color: #fff !important;}
+#ndq-tabs li.active, #ndq-tabs li:hover { opacity: .65; /* border:1px solid #e5e5e5;  border-bottom:2px #6d6dff solid;  background: #F3F3F3; */ }
+#ndq-tabs li.active a, #ndq-tabs li:hover a {  } 
+#ndq-tabs div { /* background: #F3F3F3; */ clear: both; }
+#ndq-tabs li a { text-decoration:none; padding:2px 0; width:100% outline:none; white-space:nowrap; min-width:20px; font-size:12px; }
+#ndq-tabs img {max-width: auto;}
+
+/********** Page Specific **********/
+
+/* Alerts */
+.ndq-alerts #ndq-form input, .ndq-alerts #ndq-form textarea, .ndq-alerts #ndq-form select { width:auto; }
+.ndq-alerts #ndq-form div { padding-top:0; }
+.ndq-alerts #ndq-form .ndq-submit { float:none; padding-top:10px; }
+#ndq-content.ndq-alerts input[type="checkbox"] { margin-right:0; }
+.ndq-alert-checkbox { height:25px; }
+.ndq-alerts #ndq-form .ndq-alert-textbox { padding:0 0 10px 25px; }
+.ndq-alerts #ndq-form input, .ndq-alerts #ndq-form select, .ndq-alerts #ndq-form label { float:none; }
+
+/* Annual Report and Proxies */
+.ndq-annuals-proxies .ndq-briefcaseLegend { clear:both; }
+.ndq-annuals-top { width:60%; margin:auto; }
+.ndq-report-image, .ndq-noreport-image { float:left; margin-right:10px; }
+.ndq-noreport-text { text-align:center; padding:10px 0; }
+.ndq-noreport-image {
+	width:150px; 
+	height:200px;
+	border:1px solid #23712D;
+	background: #23712D; /* Old browsers */
+	background: -moz-linear-gradient(top,  #23712D 0%, #23712D 72%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#23712D), color-stop(72%,#23712D)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #23712D 0%,#23712D 72%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #23712D 0%,#23712D 72%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #23712D 0%,#23712D 72%); /* IE10+ */
+	background: linear-gradient(to bottom,  #23712D 0%,#23712D 72%); /* W3C */
+	color:#23712D;
+	font-size:20px;
+	background-color:#23712D;
+	background-image: url(/common/images/icons/ar_cover.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* 5 rows table */
+/* #ndq-content.ndq-annuals-proxies table tbody tr:nth-child(n+6){display:none;}
+#ndq-content.ndq-annuals-proxies table tbody#archARs td {text-align:center !important; color:#fff !important; cursor:pointer !important; background:#013d79;}
+ */
+/* Briefcase */
+.ndq-filing-types-td {text-align: right;}
+.ndq-total-filesize { margin:4px 7px; }
+.ndq-briefcaseLegend { float:right; width:auto; text-align:right; margin-top:20px;}
+
+/* Calculator */
+#ndq-content .ndq-calc-shares { display:block; white-space:nowrap; font-family:"TradeGothicW01-BoldCn20 675334","Trebuchet MS",Arial,sans-serif;
+	font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0.06em;
+    line-height: 1.3;
+    text-transform: uppercase; }
+#ndq-content .ndq-calc-date { display:inline; white-space:nowrap; font-family:"TradeGothicW01-BoldCn20 675334","Trebuchet MS",Arial,sans-serif;
+	font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0.06em;
+    line-height: 1.3;
+    text-transform: uppercase;}
+#ndq-content .ndq-calc-submit { display:inline }
+#ndq-content .ndq-calc-reinvest, #ndq-content .ndq-calc-shares, #ndq-content .ndq-calc-date, #ndq-content .ndq-calc-submit { margin:10px 0; }
+#ndq-content .ndq-invested {max-width: 80px;}
+
+/* Corporate Governance Document */
+#ndq-content.ndq-corporate-governance-document div.ndq-dialog { margin-left:0; }
+
+/* Directors, Management, Committee Composition */
+#ndq-content .ndq-expand-link-nobio {  border: 1px solid #dadada; margin-bottom:10px; background:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px; padding-left: 40px;}
+#ndq-content .ndq-bio-image { float:left; margin:0 10px 10px 0; max-width:145px; width:20%; }
+#ndq-content.ndq-committees .ndq-bio-image { width:auto; }
+.wsh-ccommittees td .ndq-hide-txt {display:none;}
+#ndq-content #ndq-bio-content { }
+#ndq-content #ndq-bio-content-withpic { }
+#ndq-content #ndq-bio-notes {  }
+#ndq-content.ndq-committees table td:first-child { text-align:left; }
+#ndq-content.ndq-committees table td, #ndq-content.ndq-committees table th {  text-align:center;  }
+.ndq-currentcompany { font-style:italic; }
+/* Styles for overlay on committees.cfm and corporate-governance-document.cfm */
+.ndq-bioname {font-size:16px; font-weight:bold; margin-bottom:10px; }
+.ndq-biotitle { font-size:14px;  margin-bottom:20px; }
+
+/* Committees icons*/
+[class^="bodIcon-"]:before, [class*="bodIcon-"]:before {
+  font-family: "ndqfonticons" !important;
+  vertical-align: middle;
+  color:#444; 
+  font-size:20px;
+}
+.bodIcon-chairman:before {content: "\e027"; }
+.bodIcon-chair:before {content: "\e06a"; color:#000; }
+.bodIcon-member:before {content: "\e00a"; }
+.bodIcon-independent:before {content: "\e00d"; font-size:16px;}
+.bodIcon-fin:before { content: "\e032"; }
+#ndq-legend [class^="bodIcon-"], #ndq-legend [class*="bodIcon-"] {margin-left:20px;}
+#ndq-legend [class^="bodIcon-"]:first-child, #ndq-legend [class*="bodIcon-"]:first-child {margin-left:0px;}
+
+/* Dividends */
+.wsh-dividends { margin-top:10px; }
+#ndq-table-bold td, .ndq-table-bold { font-weight:bold; }
+
+/* Events */
+#ndq-content.ndq-events .ndq-expand-link { cursor:pointer; }
+#ndq-content.ndq-events .ndq-expand-link, #ndq-content.ndq-events .ndq-expand-content, #ndq-content.ndq-events .ndq-expand-link-no { padding:0; width:auto; clear:both; }
+#ndq-content.ndq-events .ndq-expand-link, #ndq-content.ndq-events .ndq-expand-link-no, .ndq-open-dialog { background-color:transparent; border:none; cursor:pointer;}
+#ndq-content.ndq-events .ndq-expand-link span.ndq-expand-arrow {float:left; display:block; margin-right:10px; }
+#ndq-content.ndq-events .ndq-expand-link span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e04d"; color:#454545;} 
+#ndq-content.ndq-events .ndq-expand-link-no { cursor: default; background-color:transparent; }
+#ndq-content.ndq-events .ndq-expand-content { padding:10px 0; }
+#ndq-content.ndq-events .ndq-on { background-color:transparent; }
+/*#ndq-content .ndq-expand-link:hover span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e04e"; color:#454545;}*/ 
+#ndq-content.ndq-events .ndq-on span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e050"; color:#454545; }  
+/*#ndq-content .ndq-on:hover span.ndq-expand-arrow:before { font-family: "ndqfonticons"; content: "\e04f";color:#454545;} */ 
+#ndq-content.ndq-events .ndq-over { background-color:transparent; }
+#ndq-webcast-add-info { clear:both; padding-top:1px; }
+#ndq-content.ndq-events div.ndq-dialog {margin-left:-20%; width:30%}
+#ndq-content.ndq-events caption form { margin:0; font-weight:100; width:30%;}
+#ndq-content.ndq-events caption form label {font-weight:100;}
+#ndq-content.ndq-events caption form select {}
+
+#ndq-content.ndq-events .ndq-mail, #ndq-content.ndq-eventdetail .ndq-mail,
+#ndq-content.ndq-events .ndq-outlook, #ndq-content.ndq-eventdetail .ndq-outlook,
+#ndq-content.ndq-events .ndq-google, #ndq-content.ndq-eventdetail .ndq-google
+	{  margin-right:5px; float:left;}
+#ndq-content.ndq-events .ndq-mail a.ndq-open-dialog:before, #ndq-content.ndq-eventdetail .ndq-mail a.ndq-open-dialog:before,
+#ndq-content.ndq-events .ndq-outlook a:before, #ndq-content.ndq-eventdetail .ndq-outlook a:before,
+#ndq-content.ndq-events .ndq-google a:before,#ndq-content.ndq-eventdetail .ndq-google a:before
+	{font-size:20px;}		
+#ndq-content.ndq-events .ndq-mail a.ndq-open-dialog, #ndq-content.ndq-eventdetail .ndq-mail a.ndq-open-dialog,
+#ndq-content.ndq-events .ndq-outlook a, #ndq-content.ndq-eventdetail .ndq-outlook a,
+#ndq-content.ndq-events .ndq-google a, #ndq-content.ndq-eventdetail .ndq-google a
+	{ float:left; text-decoration:none; cursor:pointer; height:24px; width:24px; line-height:24px; color:#fff; padding:0 0 0 3px; }
+#ndq-content.ndq-events .ndqicon-mail, #ndq-content.ndq-eventdetail .ndqicon-mail {background:#777;}
+#ndq-content.ndq-events .ndqicon-outlook, #ndq-content.ndq-eventdetail .ndqicon-outlook {background:#ffbc00;}
+#ndq-content.ndq-events .ndqicon-google, #ndq-content.ndq-eventdetail .ndqicon-google {background:#DD4B39;}	
+
+#ndq-content.ndq-events h1, #ndq-content.ndq-eventdetail h1 {font-size:2.2em}
+
+/* Event Details */
+#ndq-content.ndq-eventdetail div.ndq-dialog {width:50%}
+.ndq-eventdetail .ndq-webcast-logos { display:block; }
+.ndq-eventdetail h3 { margin:15px 0 5px 0; }
+
+/* Events Index */
+.eventsBox {width:48%; margin-right:2%; float:left; margin-bottom:20px;}
+.eventsBox .ndq-date {margin-bottom:10px !important;}
+
+/* Financials */
+.ndqQuarted {
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+	-khtml-border-radius:5%;
+	border-radius: 5%;
+	background:#000;
+	color: #fff;
+	border:1px solid #000;
+	height:60px;
+	width:80px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:35px;
+	position:relative;
+	float:left;
+	padding-top:5px;
+	font-family:"TradeGothicW01-BoldCn20 675334","Trebuchet MS",Arial,sans-serif;
+	
+	font-size: 19px;
+    font-weight: 100;
+    letter-spacing: 0.06em;
+    line-height: 1.3;
+    margin: 10px 0 5px;
+    text-transform: uppercase;
+}
+.ndqQuarted .ndqQuartedYear { display:block; font-size: 19px; font-weight: 100;}
+
+.ndqicon-xls-1:before {
+	font-size:50px;
+	color:#ffe259; 
+	float:left;
+} 
+#ndq-content.ndq-financials .wsh-results td {border:0;}
+#ndq-content.ndq-financials .ndq-expand-content {float:left; clear: none; width:80%; display:block !important; border:0 !important}
+#ndq-content.ndq-financials h4 { margin:0 0 10px 0; }
+#ndq-content.ndq-financials .whiteBox {
+	border:1px solid #000;
+    background:#fff;
+    display: inline-block;
+	min-height: 180px;
+    height: auto !important;
+    height: 180px;
+	margin:0 5% 3% 0;
+    padding: 15px 15px 0;
+    position: relative;
+    width: 43%;
+	float:left;
+}
+.whiteBox hr {
+    background: #fff !important;
+	border:0;
+    border-top: 1px solid #dadada !important;
+    height: 2px !important;
+    margin-bottom: 15px !important;
+	margin-top: 5px !important;
+}
+/* Analysts */
+#ndq-content.ndq-analysts .whiteBox {
+	border:1px solid #000;
+	background:#fff;
+    display: inline-block;
+	width: 30%;
+	min-height: 100px;
+    height: auto !important;
+    height: 100px;
+	margin:0 2% 2.5% 0;
+    padding: 15px;
+    position: relative;
+	float:left;
+}
+#ndq-content.ndq-financials .whiteBox:nth-child(even),
+#ndq-content.ndq-analysts .whiteBox:nth-child(even) {
+    margin-right:0;
+} 
+/* #ndq-content.ndq-financials .whiteBox:hover,
+#ndq-content.ndq-analysts .whiteBox:hover {border-top:3px solid #000;} */
+
+
+/* Index */
+#ndq-content .ndq-intro { /* float:left; width:65%; */ }
+#ndq-content p:nth-of-type(1) { margin-top:0; }
+#ndq-content .ndq-stock { /* float:right; width:32%; */ }
+#ndq-content .ndq-date { margin:0; }
+#ndq-content .ndq-item { margin-bottom:15px; }
+#ndq-content .ndq-view-all { margin:15px 0; font-size:.8em; }
+#ndq-content.ndq-index #ndq-expand { margin-top:15px; }
+#ndq-content.ndq-index .ndq-expand-content { padding-bottom:0; }
+#ndq-content.ndq-index #ndq-expand link { border-bottom:1px dashed #ccc; margin:5px 0; padding:5px 0; background-color:#fff; color:inherit; }
+
+/* Ownership Profile */
+.ndq-data-table td:first-child, .ndq-data-table th:first-child { text-align:left; }
+.ndq-data-table td, .ndq-data-table th { text-align:right; }
+#ndq-content .wsh-stocklookup th:not(:first-child), #ndq-content.ndq-ownership-profile th:not(:first-child) {text-align: right;} 
+
+/* Releases */
+.ndq-releasetype { display:inline; }
+
+/* RSS Feeds */
+#ndq-content #ndq-rss-list ul li { list-style-type:none; margin: 0 10px 0 0; padding:5px 0; }
+#ndq-content #ndq-rss-list ul li a {text-decoration:none;}
+#ndq-content #ndq-rss-list ul li a .ndqicon-rss {color:#FB7629; }
+
+/* Results */
+#ndq-content.ndq-results .ndq-expand-link h2 {margin:-5px 0 0; padding:0;}
+#ndq-content.ndq-results .ndq-expand-content-NO {border:1px solid #000;}
+#ndq-content.ndq-results .qrH2 {width:70%; display:inline-block; float:left; min-height:50px; vertical-align:top; padding:10px; margin:0; border-right:1px solid #000; }
+#ndq-content.ndq-results .emptyQ {float:left; width:25%; min-height:100px}
+#ndq-content.ndq-results .fullQ {margin:0; padding:0px; border-bottom:1px solid #000;}
+#ndq-content.ndq-results .qrItems {line-height:22px; padding:0 10px; float:left;}
+#ndq-content.ndq-results a[href$=".html"]::before, #ndq-content.ndq-results a.ndq-html::before,
+#ndq-content.ndq-results a.ndq-event::before,
+#ndq-content.ndq-results a[href$=".pdf"]::before, #ndq-content.ndq-results a.ndq-pdf::before {}
+#ndq-content.ndq-results table.wsh-results {margin-bottom:20px; border:1px solid #000;}
+#ndq-content.ndq-results table.wsh-results td {border-right: 1px solid #000;}
+
+/* Search */
+.ndq-search-boxes { width:170px; float:left; }
+.ndq-search label { display:inline; }
+.ndq-search .ndq-search-year, .ndq-search .ndq-search-categories { padding-top:5px; }
+.ndq-search .ndq-search-year { width:20%; float:left; }
+.ndq-search .ndq-search-categories { width:70%; float:right; }
+.ndq-search .wsh-search { clear:both; }
+.ndq-search .ndq-no-results { clear:both; padding-top:20px; }
+
+/* SEC Filings */
+#ndq-content.ndq-secfiling { width:100%; padding:0; }
+#ndq-content.ndq-secfiling .ndq-filetypes { float:right; }
+.ndq_txtCap { text-transform:capitalize; }
+	/* Spanish Specific */
+	.ndq-spanish #DocFilter select {max-width: 25%;}
+	.ndq-spanish #ndq-pagination select {max-width: 100%;width: auto !important;}
+	
+/* Stock Quote Include */
+#ndq-inc-stock-quote { width:45%; float:left;
+	 font-size: 11px; 
+	 /*background-color: #f3f3f3; 
+	 -moz-box-shadow:#888 0px 0px 6px; 
+	-webkit-box-shadow:#888 0px 0px 6px; 
+	-khtml-box-shadow:#888 0px 0px 6px; 
+	box-shadow:#888 0px 0px 6px;  
+	border:1px solid #C2BFBD;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+	behavior: url("/common/ieHack.htc");
+	position:relative; */
+	padding:0px;}
+#ndq-inc-stock-quote .ndq-inc-stock-quote-title { padding: 0 0 10px 0; }
+#ndq-inc-stock-quote .ndq-inc-stock-priceChange {width:100%; margin-bottom: 5px;}
+#ndq-inc-stock-quote .ndq-inc-stock-priceChange td {border:0;}
+#ndq-inc-stock-quote .ndq-inc-stock-quote-price-mini { color:#fff;  background:#454545; width:35%; font-size:1.5em; text-align: center; line-height:22px; }
+#ndq-inc-stock-quote .ndq-inc-stock-quote-change-mini { color:#fff; width:40%; font-size:1.1em; text-align: center; line-height:22px;}
+#ndq-inc-stock-quote .ndq-inc-stock-quote-other {float:left; width:60%; padding:5px 0; margin:0 0 0 5px;}
+#ndq-inc-stock-quote .ndq-inc-stock-quote-date { float:right; width:35%; padding:5px 0; margin:0  5px 0 0;}
+#ndq-inc-stock-quote .ndq-inc-stock-quote-disclaimer { padding: 5px 0 10px 8px; }
+/* Valuation Changes up or down (Calculator, Stock quote, etc.) */
+.ndq-price { background: #dadada;}
+.ndq-price-down-mini { background: #98002E; }
+.ndq-price-up-mini{ background: #00853f; }
+.ndq-price-down { color: #98002E; }
+.ndq-price-up{ color: #00853f; }
+
+/* Stock Quote */
+#ndq-content.ndq-stockquote td,#ndq-content.ndq-stockquote td img { text-align:center; vertical-align:middle;}
+#ndq-content.ndq-stockquote .ndq-current-price { font-size:3.0em; line-height:2em; }
+#ndq-content.ndq-stockquote h2 { margin: 5px 0 13px 0; }
+#ndq-content.ndq-stockquote th { color:inherit; background-color:inherit; border-bottom:1px solid #000; }
+.ndq-stockquote .ndq-leftcol { width:48%; float:left; }
+.ndq-stockquote .ndq-rightcol { width:48%; float:right; }
+#ndq-content .ndq-stock-price { font-size:19pt; margin:10px 15px 0 6px; white-space:nowrap; }
+#ndq-content .ndq-stock-change { font-size:16pt; white-space:nowrap; font-family:Arial, Helvetica, sans-serif; }
+#ndq-content .ndq-stock-time { margin-left:6px; }
+#ndq-content.ndq-stockquote .wsh-stockquote { border-top:1px solid #000; }
+/* Chart loading image */
+img.chart { background: transparent url('/common/images/ani-LoadingChart.gif') center center no-repeat;}
+/* Stock Quote, Dividends, Calculator */
+#ndq-stock-img { margin:auto; }
+
+/* Printed Materials */
+#ndq-form label.ndq-interested {vertical-align: middle !important;}
+#ndq-form input.ndq-interested-box {margin-top: 3px !important;margin-bottom: 3px !important;vertical-align: middle !important;}
+
+/* Key Ratios */
+.wsh-ratios-bottom {width:48%; float:right;}
+.wsh-ratios-top {width:48%; float:left;}
+.wsh-ratios-bottom acronym, .wsh-ratios-top acronym {border:0;}
+.wsh-quantifier {font-size: 11px;}
+
+/* Custom expanding/collapsing release summary styles */
+table.wsh-dataTable.wsh-releases.fulltable td {  }
+.relSummaryToggle { color: #454545; cursor: default; font-family: "ndqfonticons"; padding: 0 5px 0 0; cursor: pointer; }
+.relSummaryToggle:after { content: '\e04d'; }
+.relSummaryToggle:hover:after {content: '\e04f';}
+.relSummaryToggle.exp:after { content: '\e050'; }
+.relSummaryToggle.exp:hover:after { content: '\e04e'; }
+.releaseSummary { display: none; }
+
+/* extra */
+.ndq-vSpace {display:block; height:20px; width:100%;}
+.ndq-vSpaceM {display:block; height:30px; width:100%;}
+.ndq-vSpaceL {display:block; height:40px; width:100%;}
+.ndq-vSpaceXL {display:block; height:50px; width:100%;}
+
+/* financial statements responsive */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+	#wrapper {width:97% !important;} 
+	#fbContainer li {width:100% !important; float:none !important; display:block !important; margin:0 !important;}
+	#fbContainer ul {margin:0 0 20px 0 !important;}
+	#wrapper .dataTable th,
+	#wrapper .dataTable td,
+	#financialMenu div {font-size:9px !important;}
+	#wrapper .dataTable td {width:20% !important;}
+	#financialMenu div.Compare1, #financialMenu div.Compare2,
+	#financialMenu #left, #financialMenu #right 
+		{float:none !important; display:block !important; width:100% !important; }
+	.submit	{float:none !important; display:block !important; width:50% !important; }	
+	iframe {height:2800px !important}	
+}
+
+
+/* BIOS */
+#ndq-content.ndq-management .whiteBox, #ndq-content.ndq-directors .whiteBox {
+    display: inline-block;
+	 min-height:300px;
+    height: auto !important;
+    height:300px; 
+    padding: 10px;
+    /* position: relative; */
+	float:left;
+	width: 27%;
+	margin:0 3% 2.5% 0;
+    padding-bottom: 15px;
+}
+#ndq-content.ndq-directors .whiteBox { 
+	min-height: 140px;
+    height: auto !important;
+    height:140px; }
+h3.title, .bDetailHead h3 {font-weight: bold !important;}
+#ndq-content.ndq-management .whiteBox .no-bioImg {height:135px;}
+#ndq-content.ndq-directors .whiteBox img, #ndq-content.ndq-directors .whiteBox .no-bioImg {height:125px;}
+.bDetailHead img {float:left; margin:0 30px 20px 0;}
+/* #ndq-content.ndq-directors .whiteBox {min-height: 460px; height: auto !important; height:460px; } */
+#ndq-content.ndq-directors .whiteBox:hover, #ndq-content.ndq-management .whiteBox:hover {}
+/* #ndq-content.ndq-directors .whiteBox .readBio, #ndq-content.ndq-management .whiteBox .readBio {position:absolute; bottom:10px; width:90%;} */
+#ndq-content.ndq-directors .bBack, #ndq-content.ndq-management .bBack {float:right; margin:20px 0;}
+.whiteBox hr {
+    background: #fff !important;
+	border:0;
+    border-top: 1px solid #dadada !important;
+    height: 1px !important;
+    margin-bottom: 15px !important;
+	margin-top: 5px !important;
+}
+.readBio {margin-top: 10px;}
+.readBio a.shell{ }

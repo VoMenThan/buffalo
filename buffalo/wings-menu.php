@@ -35,25 +35,25 @@
   
   
   
-       <a href="/en/menu/wings/" class="btn btn-forward btn-inverse active mobile-only" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Wings&quot;}'>Wings</a> 
+       <a href="wings-menu.php" class="btn btn-forward btn-inverse active mobile-only" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Wings&quot;}'>Wings</a> 
     
-            <a href="/en/menu/wings/" class="btn btn-forward btn-inverse active" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Wings&quot;}'>Wings</a>        
+            <a href="wings-menu.php" class="btn btn-forward btn-inverse active" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Wings&quot;}'>Wings</a>        
       
-            <a href="/en/menu/sharables/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Sharables&quot;}'>Sharables</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Sharables&quot;}'>Sharables</a>
       
-            <a href="/en/menu/more-eats/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;More Eats&quot;}'>More Eats</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;More Eats&quot;}'>More Eats</a>
       
-            <a href="/en/menu/burgers-sandwiches/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Burgers &amp; More&quot;}'>Burgers &amp; More</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Burgers &amp; More&quot;}'>Burgers &amp; More</a>
       
-            <a href="/en/menu/bdubsfastbreaklunch/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Lunch&quot;}'>Lunch</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Lunch&quot;}'>Lunch</a>
       
-            <a href="/en/menu/Party-Menu/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Party Menu&quot;}'>Party Menu</a>
+            <a href="party-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Party Menu&quot;}'>Party Menu</a>
       
-            <a href="/en/menu/drinks/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Drinks&quot;}'>Drinks</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Drinks&quot;}'>Drinks</a>
       
-            <a href="/en/menu/kids/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Kids&quot;}'>Kids</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Kids&quot;}'>Kids</a>
       
-            <a href="/en/menu/dessert/" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Dessert&quot;}'>Dessert</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/wings/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Dessert&quot;}'>Dessert</a>
       
 
   

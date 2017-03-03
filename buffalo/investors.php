@@ -1,4 +1,5 @@
 <?php include("header.php");?> 
+
 <section class="row generic-content">
   <div class="inner-hero-slim">
   
@@ -14,7 +15,7 @@
           <div class="headerProfile bkgrHeader">  
               <h2>Company Profile</h2>    
               
-            <a class="btn btnHeader" href="overview.cfm">READ MORE <span class="fwd-icon svg-icon-chevron-right-yellow"></span></a>
+            <a class="btn btnHeader" href="overview-investors.php">READ MORE <span class="fwd-icon svg-icon-chevron-right-yellow"></span></a>
        	  </div>
 	  
       
@@ -29,14 +30,14 @@
       <div class="ndq-expand-content">
       
         
-            	<p><a class="ndq-no-icon show-txt btn btnHeader" href="eventdetail.cfm?eventid=179394">Webcast</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
+            	<p><a class="ndq-no-icon show-txt btn btnHeader" href="releasedetail-investors.php">Webcast</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
             
-            	<p><a class="ndq-no-icon show-txt btn btnHeader" href="releasedetail.cfm?ReleaseID=1010834" onclick="sh_windowpopup('releasedetail.cfm?ReleaseID=1010834','1010834',925,600);return false;">Release</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
+            	<p><a class="ndq-no-icon show-txt btn btnHeader" href="releasedetail-investors.php" onclick="sh_windowpopup('releasedetail.cfm?ReleaseID=1010834','1010834',925,600);return false;">Release</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
             
-            	<p><a class="ndq-no-icon show-txt btn btnHeader" href="secfiling.cfm?filingID=1062449-17-13" target="_blank">Form 10-K</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
+            	<p><a class="ndq-no-icon show-txt btn btnHeader" href="/public/BWW052.3_TO-PAR_menu_Store0292.pdf" target="_blank">Form 10-K</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
             
           <p>
-            <a class="show-txt btn btnHeader" href="/common/download/download.cfm?companyid=BWLD&fileid=927039&filekey=F82022FC-401A-4175-8061-D990C446F555&filename=BWLD-Transcript-2017-02-07T22_00.pdf" target="_blank">Transcript</a>  <span class="fwd-icon svg-icon-chevron-right-yellow"></span>
+            <a class="show-txt btn btnHeader" href="/public/BWW052.3_TO-PAR_menu_Store0292.pdf" target="_blank">Transcript</a>  <span class="fwd-icon svg-icon-chevron-right-yellow"></span>
             
           </p>
         
@@ -55,9 +56,9 @@
 <h2>Annual Report and Proxy</h2>
 
 
-    <p><a class="ndq-no-icon btn btnHeader" href="/common/download/download.cfm?companyid=BWLD&fileid=881352&filekey=FFA0EAAF-7477-4C53-B9D3-818CC27D1D8A&filename=BWLD_2015.12.27_10-K_FINAL.pdf" target="_blank">2015 10-K Report</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
+    <p><a class="ndq-no-icon btn btnHeader" href="/public/BWW052.3_TO-PAR_menu_Store0292.pdf" target="_blank">2015 10-K Report</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
   
-    <p><a class="ndq-no-icon btn btnHeader" href="/common/download/download.cfm?companyid=BWLD&fileid=883031&filekey=B83AC187-0535-4F5B-93EC-CF98BF138A47&filename=2016_Proxy_-_Filed_Version.pdf" target="_blank">2016 Proxy Statement</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
+    <p><a class="ndq-no-icon btn btnHeader" href="/public/BWW052.3_TO-PAR_menu_Store0292.pdf" target="_blank">2016 Proxy Statement</a> <span class="fwd-icon svg-icon-chevron-right-yellow"></span></p>
   
         </div>
       
@@ -79,51 +80,9 @@
       <div class="article-copy">
         <div class="left"> 
         	
-  <h2><a href="index.cfm" class="selected">Investors</a></h2>
 
-	
-  <ul class="ndq-ir-nav">
-    <li><a href="overview.cfm">Company Profile</a></li>
-    <li><a href="releases.cfm">Press Releases</a></li>
-    <li><a href="events.cfm">Events & Presentations</a></li>
-    
-    <li><a href="corporate-governance.cfm">Corporate Governance</a>
-      <ul style="display:none;">
-        <li><a href="management.cfm">Management</a></li>
-        <li><a href="directors.cfm" >Board of Directors</a></li>
-        <li><a href="committees.cfm" >Committee Composition</a></li>
-        <li><a href="contactboard.cfm">Contact the Board</a></li>
-        
-      </ul>
-    </li>
-    
-    <li><a href="annuals-proxies.cfm">Annual Reports and Proxies</a></li>
-    
-    <li><a href="results.cfm">Quarterly Results</a></li>
-    
-    <li><a href="financials.cfm">Financials & Filings</a>
-      <ul style="display:none;">
-        <li><a href="sec.cfm">SEC Filings</a></li>
-        
-        <li><a href="financials-keyratios.cfm">Key Ratios</a></li>
-        
-      </ul>
-    </li>  
-    <li><a href="stockquote.cfm">Stock Information</a>
-      <ul style="display:none;">
-        <li><a href="stocklookup.cfm">Historic Stock Lookup</a></li>
-        <li><a href="calculator.cfm">Investment Calculator</a></li>
-        <li><a href="dividends.cfm">Dividend History</a></li>
-        <li><a href="analysts.cfm">Analyst Coverage</a></li>
-        <li><a href="ownership-profile.cfm">Ownership Profile</a></li>
-        <li><a href="estimates.cfm">Earnings Estimates</a></li>
-        
-      </ul>
-    </li> 
-    
-    <li><a href="faq.cfm">Investor FAQs</a></li>
-    <li><a href="contactus.cfm">Contact Us</a></li>
-  </ul>
+	<?php include("menu-left-investors.php");?> 
+  
 
 
 
@@ -302,17 +261,17 @@
             
                 	<div class="eventsBox">
                       <div class="ndq-date"><div>Feb 7, 2017</div> 5:00 PM ET</div>
-                      <div class="ndq-item"><a href="eventdetail.cfm?EventID=179394">Q4 2016 Buffalo Wild Wings Inc Earnings Conference Call</a></div>
+                      <div class="ndq-item"><a href="event-detail-investors.php">Q4 2016 Buffalo Wild Wings Inc Earnings Conference Call</a></div>
                 	</div>
                 
                 	<div class="eventsBox">
                       <div class="ndq-date"><div>Oct 26, 2016</div> 5:00 PM ET</div>
-                      <div class="ndq-item"><a href="eventdetail.cfm?EventID=176630">Q3 2016 Buffalo Wild Wings Inc Earnings Conference Call</a></div>
+                      <div class="ndq-item"><a href="event-detail-investors.php">Q3 2016 Buffalo Wild Wings Inc Earnings Conference Call</a></div>
                 	</div>
                 
               <br clear="all"/>
             
-            <a class="btn-more" href="events.cfm">View all events & presentations <span class="ndqicon-arw-r"></span></a>
+            <a class="btn-more" href="event-investors.php">View all events & presentations <span class="ndqicon-arw-r"></span></a>
 	  	</div>
 
       </div>
@@ -341,58 +300,41 @@
                           <li>
                                 <div class="col-md-4 wp5">
                                      <div>Feb 7, 2017</div> <br/>
-                                    <div class="ndq-item"><a target="_blank" href="releasedetail.cfm?ReleaseID=1010834">Buffalo Wild Wings, Inc. Announces Fourth Quarter Earnings per Share of $0.87</a></div>              
+                                    <div class="ndq-item"><a target="_blank" href="releasedetail-investors.php">Buffalo Wild Wings, Inc. Announces Fourth Quarter Earnings per Share of $0.87</a></div>              
                                 </div>
                             
                                 <div class="col-md-4 wp5">
                                      <div>Feb 6, 2017</div> <br/>
-                                    <div class="ndq-item"><a target="_blank" href="releasedetail.cfm?ReleaseID=1010623">Buffalo Wild Wings, Inc. Issues Statement in Response to Marcato</a></div>              
+                                    <div class="ndq-item"><a target="_blank" href="releasedetail-investors.php">Buffalo Wild Wings, Inc. Issues Statement in Response to Marcato</a></div>              
                                 </div>
                             
                                 <div class="col-md-4 wp5">
                                      <div>Jan 24, 2017</div> <br/>
-                                    <div class="ndq-item"><a target="_blank" href="releasedetail.cfm?ReleaseID=1008901">Buffalo Wild Wings, Inc. Expands Share Repurchase Program by $400 Million</a></div>              
+                                    <div class="ndq-item"><a target="_blank" href="releasedetail-investors.php">Buffalo Wild Wings, Inc. Expands Share Repurchase Program by $400 Million</a></div>              
                                 </div>
                             </li> <li>
                                 <div class="col-md-4 wp5">
                                      <div>Jan 19, 2017</div> <br/>
-                                    <div class="ndq-item"><a target="_blank" href="releasedetail.cfm?ReleaseID=1008532">Buffalo Wild Wings, Inc. to Conduct a Webcast of Its Fourth Quarter 2016 Results</a></div>              
+                                    <div class="ndq-item"><a target="_blank" href="releasedetail-investors.php">Buffalo Wild Wings, Inc. to Conduct a Webcast of Its Fourth Quarter 2016 Results</a></div>              
                                 </div>
                             
                                 <div class="col-md-4 wp5">
                                      <div>Dec 14, 2016</div> <br/>
-                                    <div class="ndq-item"><a target="_blank" href="releasedetail.cfm?ReleaseID=1004210">Buffalo Wild Wings Helps Fans "Wing In" the New Year with Citrus Bowl Activations</a></div>              
+                                    <div class="ndq-item"><a target="_blank" href="releasedetail-investors.php">Buffalo Wild Wings Helps Fans "Wing In" the New Year with Citrus Bowl Activations</a></div>              
                                 </div>
                             
                                 <div class="col-md-4 wp5">
                                      <div>Nov 15, 2016</div> <br/>
-                                    <div class="ndq-item"><a target="_blank" href="releasedetail.cfm?ReleaseID=999609">Buffalo Wild Wings, Inc. Names Santiago Abraham as Chief Information Officer</a></div>              
+                                    <div class="ndq-item"><a target="_blank" href="releasedetail-investors.php">Buffalo Wild Wings, Inc. Names Santiago Abraham as Chief Information Officer</a></div>              
                                 </div>
                             </li> 
                       </ul>
                     </div>
                  
             
-                <a class="btn-more" href="releases.cfm">View all press releases <span class="ndqicon-arw-r"></span></a>
+                <a class="btn-more" href="releases-investors.php">View all press releases <span class="ndqicon-arw-r"></span></a>
              </div>                       
                               
-                                  
-        
-            
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
 
 
 
@@ -407,100 +349,32 @@
 
 
 
-<article class="row alt"> 
-	
+<?php 
+include("investors-footer.php");
 
-    <ul id="ndq-tools">
+include("footer.php");
+?>
+    <script type="text/javascript">
+        $(document).ready(function($) {
+            $('.wp5').waypoint(function() {
+                $('.wp5').addClass('animated fadeInUp');
+            }, {
+                offset: '75%'
+            });
+            $('#teamSlider').flexslider({
+                animation: "slide",
+                directionNav: false,
+                controlNav: true,
+                touch: true,
+                pauseOnHover: true,
+                start: function() {
+                    $.waypoints('refresh');
+                }
+            });
       
-      <div class="ndq-tool-icons">
-      
-        <li> <a class="ndq-noTxtDec" href="briefcase.cfm" title="Briefcase" alt="Briefcase">
-          <div href="briefcase.cfm" class="ndqicon-briefcase-1"><strong style="opacity: 0;">Briefcase</strong></div>
-          <h3>Briefcase</h3>
-          </a> </li>
-      
-      <li> <a class="ndq-noTxtDec" href="printed-materials.cfm" title="Printed Materials" alt="Printed Materials">
-        <div class="ndqicon-printed-materials-1"><strong style="opacity: 0;">Printed Materials</strong></div>
-        <h3>Printed Materials</h3>
-        </a> </li>
-      
-        <li> <a class="ndq-noTxtDec" href="profile.cfm" title="Email Alerts" alt="Email Alerts">
-          <div class="ndqicon-alerts"><strong style="opacity: 0;">Email Alerts</strong></div>
-          <h3>Email Alerts</h3>
-          </a> </li>
-      
-      <li> <a class="ndq-noTxtDec" href="downloads.cfm" title="Downloads" alt="Downloads">
-        <div class="ndqicon-downloads-3"><strong style="opacity: 0;">Downloads</strong></div>
-        <h3>Downloads</h3>
-        </a> </li>
-      <li> <a class="ndq-noTxtDec" href="http://apps2.shareholder.com/tearsheet/generate.aspx?id=242061&CompanyID=BWLD&s=3982640361" onFocus="this.blur();" target="_blank" title="Snapshot" alt="Snapshot">
-        <div class="ndqicon-snapshot-1"><strong style="opacity: 0;">Snapshot</strong></div>
-        <h3>Snapshot</h3>
-        </a> </li>
-      <li> 
-         
-        <a class="ndq-noTxtDec" href="rss.cfm" onFocus="this.blur();" title="RSS" alt="RSS">
-        <div class="ndqicon-rss"><strong style="opacity: 0;">RSS</strong></div>
-        <h3>RSS</h3>
-        </a> </li>
-      <li> <a class="ndq-noTxtDec" href="javascript:window.print();" rel="nofollow" title="Print" alt="Print">
-        <div class="ndqicon-print"><strong style="opacity: 0;">Print</strong></div>
-        <h3>Print</h3>
-        </a> </li>
-      <li> <a class="ndq-noTxtDec" href="/index.cfm?sh_email=yes&amp;_ga&#61;1.266956494.1965855944.1488187542" onFocus="this.blur();" onclick="sh_popup('/index.cfm?sh_email=yes&amp;_ga&#61;1.266956494.1965855944.1488187542',525,700);return false;" rel="nofollow">
-        <div class="ndqicon-mail"><strong style="opacity: 0;">Email</strong></div>
-        <h3>Email</h3>
-        </a> </li>
-      
-        <li><a class="ndq-noTxtDec ndq-open-dialog" onFocus="this.blur();" title="Share" alt="Share">
-          <div class="ndqicon-share"><strong style="opacity: 0;">Share</strong></div>
-          <h3>Share</h3>
-          </a> </li>
-        
-        
-      
-      
-      	<li><a class="ndq-noTxtDec" href="search.cfm" onFocus="this.blur();" title="Search" alt="Search">
-      		<div class="ndqicon-search"><strong style="opacity: 0;">Search</strong></div>
-            <h3>Search</h3></a>
-        </li>
-        
-	</div>
-        
-      
-        <div id="output"></div>
-        <div class="ndq-dialog-overlay"></div>
-        <div class="ndq-dialog"> <a class="ndq-close-dialog ndqicon-close" title="Close"></a> <br clear="all"/>
-            
-	<ul id="ndq-share">
-		
-					<li><a class="ndqicon-fb" href="http://www.facebook.com/share.php?u=http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542&amp;t=Investors at Buffalo Wild Wings" onclick="window.open('http://www.facebook.com/share.php?u=http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542&amp;t=Investors at Buffalo Wild Wings','Facebook','resizable=yes,scrollbars=yes,width=900,height=570'); return false;" alt="Facebook" title="Facebook"><span class="hide-txt">Facebook</span></a></li>
-				
-					<li><a class="ndqicon-google" href="https://plus.google.com/share?url=http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542&amp;title=Investors at Buffalo Wild Wings" onclick="window.open('https://plus.google.com/share?url=http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542&amp;title=Investors at Buffalo Wild Wings','GooglePlus','resizable=yes,scrollbars=yes,width=900,height=570'); return false;" alt="Google" title="GooglePlus"><span class="hide-txt">Google</span></a></li>
-				
-					<li><a class="ndqicon-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542&amp;title=Investors at Buffalo Wild Wings" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542&amp;title=Investors at Buffalo Wild Wings','LinkedIn','resizable=yes,scrollbars=yes,width=900,height=570'); return false;" alt="LinkedIn" title="LinkedIn"><span class="hide-txt">LinkedIn</span></a></li>
-				
-					<li><a class="ndqicon-tw" href="http://twitter.com/home?status=Currently%20reading%20http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542" onclick="window.open('http://twitter.com/home?status=Currently%20reading%20http://ir.buffalowildwings.com/index.cfm?_ga&#61;1.266956494.1965855944.1488187542','Twitter','resizable=yes,scrollbars=yes,width=900,height=570'); return false;" alt="Twitter" title="Twitter"><span class="hide-txt">Twitter</span></a></li>
-				
-		<li><a class="ndqicon-mail" href="/index.cfm?sh_email=yes&amp;_ga&#61;1.266956494.1965855944.1488187542" onclick="sh_popup('/index.cfm?sh_email=yes&amp;_ga&#61;1.266956494.1965855944.1488187542',550,545);return false;" rel="nofollow" alt="Email" title="Email"><span class="hide-txt">Email</span></a></li>
-    <li><a class="ndqicon-rss" href="rss.cfm"><span class="hide-txt">RSS</span></a></li>
-	</ul>
-  
-  
-
-  
-
-        </div>
-      
-      
-       
-      
-       
-      <br clear="all"/>
-    </ul>
-  
-    <div class="hr black"></div>
- </article>
-
-
-<?php include("footer.php");?>
+        });
+                        
+         /*  !function ($, app) {
+            app.HeroSlideshow = new app._Modules.HeroSlideshow()
+          } (jQuery, BuffaloWildWings) */
+    </script>

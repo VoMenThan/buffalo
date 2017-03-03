@@ -256,15 +256,15 @@
               <label>Overall, please rank your experience</label>
               <div class="many-radios">
                 <label for="rating5">Great!</label>
-                <input value="5" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating5" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_5&quot;}" />
+                <div class="radio" id="uniform-ctl00_MainContent_rating5"><span><input value="5" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating5" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_5&quot;}" style="opacity: 0;"></span></div>
                 <label for="rating5">5</label>
-                <input value="4" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating4" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_4&quot;}" />
+                <div class="radio" id="uniform-ctl00_MainContent_rating4"><span><input value="4" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating4" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_4&quot;}" style="opacity: 0;"></span></div>
                 <label for="rating4">4</label>
-                <input value="3" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating3" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_3&quot;}" />
+                <div class="radio" id="uniform-ctl00_MainContent_rating3"><span><input value="3" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating3" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_3&quot;}" style="opacity: 0;"></span></div>
                 <label for="rating3">3</label>
-                <input value="2" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating2" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_2&quot;}" />
+                <div class="radio" id="uniform-ctl00_MainContent_rating2"><span><input value="2" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating2" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_2&quot;}" style="opacity: 0;"></span></div>
                 <label for="rating2">2</label>
-                <input value="1" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating1" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_1&quot;}" />
+                <div class="radio" id="uniform-ctl00_MainContent_rating1"><span><input value="1" name="ctl00$MainContent$rating" type="radio" id="ctl00_MainContent_rating1" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Experience_1&quot;}" style="opacity: 0;"></span></div>
                 <label for="rating1">1</label>
               </div>
             </div>
@@ -280,26 +280,26 @@
 
             <div class="form-row radios">
               <p class="form-copy required">Would you like to be contacted by a representative?</p>
-              <input value="Yes" name="ctl00$MainContent$representative" type="radio" id="ctl00_MainContent_representativeYes" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Contact_By_Representative_Yes&quot;}" />
+              <div class="radio fsrVisible" id="uniform-ctl00_MainContent_representativeYes"><span><input value="Yes" name="ctl00$MainContent$representative" type="radio" id="ctl00_MainContent_representativeYes" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Contact_By_Representative_Yes&quot;}" style="opacity: 0;"></span></div>
               <label for="ctl00$MainContent$representative>">Yes</label>
-              <input value="No" name="ctl00$MainContent$representative" type="radio" id="ctl00_MainContent_representativeNo" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Contact_By_Representative_No&quot;}" />
+              <div class="radio fsrVisible" id="uniform-ctl00_MainContent_representativeNo"><span><input value="No" name="ctl00$MainContent$representative" type="radio" id="ctl00_MainContent_representativeNo" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Contact_By_Representative_No&quot;}" style="opacity: 0;"></span></div>
               <label for="ctl00$MainContent$representative">No</label>
             </div>
 
             <div class="form-row radios">
               <p class="form-copy">Would you like to join Buffalo Circle, the coolest eater's club?</p>
-              <input value="Yes" name="ctl00$MainContent$buffaloCircle" type="radio" id="ctl00_MainContent_buffaloCircleYes" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Buffalo_Circle_Yes&quot;}" />
+              <div class="radio fsrVisible" id="uniform-ctl00_MainContent_buffaloCircleYes"><span><input value="Yes" name="ctl00$MainContent$buffaloCircle" type="radio" id="ctl00_MainContent_buffaloCircleYes" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Buffalo_Circle_Yes&quot;}" style="opacity: 0;"></span></div>
               <label for="ctl00$MainContent$buffaloCircle>">Yes</label>
-              <input value="No" name="ctl00$MainContent$buffaloCircle" type="radio" id="ctl00_MainContent_buffaloCircleNo" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Buffalo_Circle_No&quot;}" />
+              <div class="radio fsrVisible" id="uniform-ctl00_MainContent_buffaloCircleNo"><span><input value="No" name="ctl00$MainContent$buffaloCircle" type="radio" id="ctl00_MainContent_buffaloCircleNo" class="uniform" data-ga="{&quot;category&quot;:&quot;$(#analyticsCat)&quot;,&quot;action&quot;:&quot;$(#analyticsAction)&quot;,&quot;opt_label&quot;:&quot;Buffalo_Circle_No&quot;}" style="opacity: 0;"></span></div>
               <label for="ctl00$MainContent$buffaloCircle">No</label>
             </div>
 
             <div class="form-row">
               <div class="field-container">
-                  <div class="g-recaptcha js-captcha" data-sitekey="6LcSFx8TAAAAAM0BfOLgQ_mS0Yu0Y7S32iRjZ5HY" data-captcha-error-message="Use the reCAPTCHA to prove you&#39;re human.&lt;br />You are human, aren&#39;t you? AREN&#39;T YOU?"></div>
+                  <div class="g-recaptcha js-captcha" data-sitekey="6LcSFx8TAAAAAM0BfOLgQ_mS0Yu0Y7S32iRjZ5HY" data-captcha-error-message="Use the reCAPTCHA to prove you're human.<br />You are human, aren't you? AREN'T YOU?"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LcSFx8TAAAAAM0BfOLgQ_mS0Yu0Y7S32iRjZ5HY&amp;co=aHR0cDovL3d3dy5idWZmYWxvd2lsZHdpbmdzLmNvbTo4MA..&amp;hl=en&amp;v=r20170223111436&amp;size=normal&amp;cb=qzoegdr0t51v" title="recaptcha widget" width="304" height="78" frameborder="0" scrolling="no" name="undefined" _fsrb="true"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
                   <div class="js-captcha-error-container" style="display:none;"></div>
 
-                  <input type="hidden" name="completed_captcha" class="required" id="completed_captcha" value="" required="" />
+                  <input type="hidden" name="completed_captcha" class="required" id="completed_captcha" value="" required="">
               </div>
             </div>
 

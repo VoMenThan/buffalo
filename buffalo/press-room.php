@@ -143,7 +143,7 @@
         <h2>Financial Press Releases</h2>
 
         
-            <a href="http://ir.buffalowildwings.com/releases.cfm" title="Financial Press Releases" target="_blank" >Financial Press Releases</a>
+            <a href="releases-investors.php" title="Financial Press Releases" target="_blank" >Financial Press Releases</a>
         
       </div>
 
@@ -155,23 +155,23 @@
         <ul class="press-kit-list desktop-only">
           
           <li>
-            <a href="/Global/2016_SallySmith_bio.pdf" target="_blank" title="Press Kit" >Executive Profile - Sally Smith</a>
+            <a href="/public/Nat'l Chicken Wing Day Release - FINAL.pdf" target="_blank" title="Press Kit" >Executive Profile - Sally Smith</a>
           </li>
           
           <li>
-            <a href="/Global/2014_1354_BWWFactSheet_PC2.pdf" target="_blank" title="Press Kit" >Company Fact Sheet</a>
+            <a href="/public/Nat'l Chicken Wing Day Release - FINAL.pdf" target="_blank" title="Press Kit" >Company Fact Sheet</a>
           </li>
           
           <li>
-            <a href="/Global/Building%20Assets.zip" target="_blank" title="Press Kit" >Images</a>
+            <a href="/public/Nat'l Chicken Wing Day Release - FINAL.pdf" target="_blank" title="Press Kit" >Images</a>
           </li>
           
           <li>
-            <a href="/PageFiles/189/2014-1994_BWW_Style-Guide.pdf" target="_blank" title="Press Kit" >Style Guide</a>
+            <a href="/public/Nat'l Chicken Wing Day Release - FINAL.pdf" target="_blank" title="Press Kit" >Style Guide</a>
           </li>
           
           <li>
-            <a href="/Global/menutier_pdfs/8150766_BuffaloWildWings-B-rollReel-H264-1920x1080.mov" target="_blank" title="Press Kit" >B-roll B-Dubs Experience</a>
+            <a href="/public/Nat'l Chicken Wing Day Release - FINAL.pdf" target="_blank" title="Press Kit" >B-roll B-Dubs Experience</a>
           </li>
                     
         </ul>

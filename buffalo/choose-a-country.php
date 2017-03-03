@@ -1,6 +1,20 @@
 <?php include("header.php");?>
   
+  <section class="row generic-content">
+  <div class="inner-hero-slim">
   
+    <div class="hero-bg mobile-img" data-desktop-img="./images/Corporate-Governance.jpg" data-mobile-img="./images/Corporate-Governance.jpg"> <img src="./images/Corporate-Governance.jpg" class="mobile-img" alt="" /> </div>
+        
+    <div class="hero-content">
+      <div class="hero-container">
+            <h1> Corporate Governance </h1>
+      </div>
+
+        
+      
+    </div>
+  </div>
+</section>
   
   <div class="row">
     <div class="inner pg-title">

@@ -39,25 +39,25 @@
   
   
   
-       <a href="sharables-menu.php" class="btn btn-forward btn-inverse active mobile-only" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Sharables&quot;}'>Sharables</a> 
+       <a href="sharables-menu.php" class="btn btn-forward btn-inverse active mobile-only" >Sharables</a> 
     
-            <a href="wings-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Wings&quot;}'>Wings</a>        
+            <a href="wings-menu.php" class="btn btn-forward btn-inverse" >Wings</a>        
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse active" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Sharables&quot;}'>Sharables</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse active" >Sharables</a>
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;More Eats&quot;}'>More Eats</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" >More Eats</a>
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Burgers &amp; More&quot;}'>Burgers &amp; More</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" >Burgers &amp; More</a>
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Lunch&quot;}'>Lunch</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" >Lunch</a>
       
-            <a href="party-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Party Menu&quot;}'>Party Menu</a>
+            <a href="party-menu.php" class="btn btn-forward btn-inverse" >Party Menu</a>
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Drinks&quot;}'>Drinks</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" >Drinks</a>
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Kids&quot;}'>Kids</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" >Kids</a>
       
-            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" data-ga='{&quot;category&quot;:&quot;/en/menu/sharables/&quot;,&quot;action&quot;:&quot;Menu_Nav&quot;,&quot;opt_label&quot;:&quot;Dessert&quot;}'>Dessert</a>
+            <a href="sharables-menu.php" class="btn btn-forward btn-inverse" >Dessert</a>
       
 
   

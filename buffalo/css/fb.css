@@ -1,0 +1,116 @@
+.social-list {
+background-color: #000; }
+.SaveParagraph {width: 100%; padding: 0px;}
+.joinimg  img{
+width: 100%;
+height: auto;
+display: inline !important;
+vertical-align: middle;
+padding-top: 5%;
+max-width:561px;
+}
+.Fields  table{
+display: inline !important;
+padding-bottom: 10px;
+}
+
+.joinimg {
+float: left;
+width: 50%;
+display: inline !important;
+}
+
+.jointable{
+float: right;
+width: 50%;
+display: inline;
+vertical-align: middle;
+padding-top: 5%;
+margin: 0px auto;
+}
+
+
+.SaveParagraph {
+width: 50%;
+text-align: center;
+}
+
+.bgarea {
+background-image: url("http://assets.fbmta.com/clt/bww/lp/join/10/Join_files/mainbg.png");
+background-repeat: no-repeat;
+
+}
+
+@media only screen and (min-width: 860px){
+.social-list .fwd-icon{
+	position:relative;
+	display:inline-block;
+	width:12px;
+	height:18px;
+	margin:0 0 0 10px;
+	background-position:0 2px;
+	}
+.details-social .buffalo-wing{
+	display:none;
+	}
+.details-social .social-list .social-info{
+	padding:0 0 0 80px;
+	}
+.item-secondary .item-content .item-title h4{
+	font-size:40px;
+	font-size:2.5rem;
+	}
+.interior-details .bi-details .detail-image img{
+	margin:0;
+	}
+.interior-details .bi-details .detail-content p{
+	margin:0 0 16px;
+	}
+
+}
+@media only screen and (max-width: 1248px){
+.gone {
+display: none;
+}
+.joinimg {
+float: clear;
+width: 100%;
+display: inline !important;
+text-align:center;
+}
+.jointable{
+float: none;
+width: 100%;
+display: inline !important;
+margin: 0px auto;
+}
+.Fields  {
+margin: 0px auto;
+}
+
+.SaveParagraph {
+  width: 100%;
+  }
+  .FieldsCell1, .FieldsCell2{
+    width: 100%;
+    text-align: center;
+    display:block;
+    padding: 0 0 10px 0;
+  }
+  .StoresDropDown, .FieldsDropDown {
+    width: 90%;
+    text-align: center;
+  }
+  .FieldsInput{
+    text-align: center;
+     width: 90%;
+  }
+
+
+}
+.bgarea {max-width: 1200px; margin: 0px auto;}
+@media only screen and (max-width: 450px){
+.jointable {
+width: auto;
+}
+}

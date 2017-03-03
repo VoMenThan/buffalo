@@ -67,7 +67,21 @@
   
   <style src="./css/flexslider.css"></style>
   <link rel="stylesheet" href="./css/national-wing-day.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="./css/video-hero-module.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./css/gift-cards.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./css/styles__ltr.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./css/fb.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./css/Calendar.Default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./css/Input.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/ndq-overwrite.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/ndq-toolbar.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/ndq-icons.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/ndq-toolbar-hoverEffect.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/ndq-styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./css/wsh_script_absent.css" type="text/css" media="screen" />
+
+
+
   
 
 
@@ -111,9 +125,9 @@
             })(window);
             // DO NOT MODIFY ABOVE THIS LINE *****************************************
     </script>
-<title>
-
-</title></head>
+    <script src="./js/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="./js/jquery.appender.js" type="text/javascript"></script>
+</head>
 <body>
   <img height="1" width="1" style="border-style:none; position: absolute; left: -100px;" alt="" src="//insight.adsrvr.org/track/conv/?adv=hip6dvm&amp;ct=0:gzluor6k&amp;fmt=3" />
   <img src="https://insight.adsrvr.org/track/evnt/?ct=0:arqd8e7z&amp;adv=421f3zx&amp;fmt=3" name="Quantum11 Tracking - BWW Retargeting" style="position:absolute;" />
@@ -171,15 +185,16 @@
               
            
                 <div id="storeInformation" class="store-information"><span class="nearby">Nearby</span>
-					  <a href="/Locations/Detail/" class="store-detail-link" data-ga="{&quot;category&quot;:&quot;http://www.buffalowildwings.com/&quot;,&quot;action&quot;:&quot;Address_Click&quot;,&quot;opt_label&quot;:&quot;Header&quot;}">
-					    <span class="store-title"></span>
-					    <span class="address"><br></span>
-					  </a>
-					  <ul class="store-options">
-					    <li>
-					      <a id="getDirections" href="https://maps.google.com/maps?saddr=&amp;daddr=%20%20%20%20%20&amp;t=m" title="Get Directions To This Store" target="blank" data-ga="{&quot;category&quot;:&quot;/en/&quot;,&quot;action&quot;:&quot;Global_Header&quot;,&quot;opt_label&quot;:&quot;Get_Directions&quot;}">Get Directions</a>
-					    </li>
-					  </ul></div>
+                    <a href="locations-detail.php" class="store-detail-link">
+                        <span class="store-title">Alexandria, VA - Richmond Hwy.</span>
+                        <span class="address">7732 Richmond Hwy.<br>703-619-5090</span>
+                    </a>
+                    <ul class="store-options">
+                        <li>
+                            <a id="getDirections" href="https://www.google.com/maps?saddr&daddr=7732+Richmond+Hwy.+Ste.+F+Alexandria+VA+22306-2803+&t=m" title="Get Directions To This Store" target="blank" data-ga="{&quot;category&quot;:&quot;/en/faq/&quot;,&quot;action&quot;:&quot;Global_Header&quot;,&quot;opt_label&quot;:&quot;Get_Directions&quot;}">Get Directions</a>
+                        </li>
+                    </ul>
+                </div>
               </div>           
 
           </div> 
